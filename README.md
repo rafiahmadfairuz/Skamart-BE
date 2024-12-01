@@ -3,7 +3,7 @@
 Proyek ini adalah **website e-commerce katalog** yang dibangun dengan menggunakan **PHP Native**, **AJAX**, **jQuery**, **JavaScript**, dan **MySQL**. Dengan pendekatan **fullstack**, saya mengintegrasikan **front-end** dan **back-end** untuk menciptakan pengalaman belanja online yang cepat, efisien, dan mudah digunakan.
 
 ## Fitur Utama
-- **Filter Produk**: Menampilkan filter canggih untuk menyaring produk berdasarkan kategori, harga, dan lainnya. Implementasi filter ini membutuhkan **query SQL yang rumit** dengan berbagai relasi antar tabel produk, kategori, dan stok.
+- **Filter Produk**: Menampilkan filter canggih untuk menyaring produk berdasarkan kategori, harga, dan lainnya. Implementasi filter ini membutuhkan **query SQL yang Kompleks** dengan berbagai relasi antar tabel produk, kategori, dan stok.
 - **Keranjang Belanja (Cart)**: Pengelolaan keranjang belanja yang dinamis, memungkinkan pengguna menambahkan, mengubah jumlah, dan menghapus produk tanpa me-refresh halaman. Dikelola dengan menggunakan **AJAX** untuk pembaruan waktu nyata.
 - **Relasi Database MySQL**: Menggunakan **relasi yang kompleks** antar tabel dalam database MySQL untuk menyimpan data produk, kategori, stok, dan transaksi. Relasi ini diperlukan untuk mengelola data secara efisien dan menampilkan produk sesuai filter yang dipilih oleh pengguna.
 - **Pengelolaan Produk dan Stok**: Admin dapat mengelola produk secara langsung melalui antarmuka sederhana, dengan pembaruan stok yang dinamis.
@@ -17,5 +17,5 @@ Proyek ini adalah **website e-commerce katalog** yang dibangun dengan menggunaka
 
 ## Fitur Relasi Database MySQL
 - **Relasi Antar Tabel**: Menggunakan **JOIN** untuk menggabungkan data dari beberapa tabel, seperti tabel produk, kategori, dan stok. Ini memungkinkan fitur **filter produk** untuk berfungsi dengan efisien, bahkan saat database memiliki ribuan produk.
-- **Pengelolaan Transaksi**: Setiap transaksi disimpan dalam tabel terpisah dan dihubungkan dengan tabel produk melalui relasi **many-to-many** untuk mencatat produk yang dibeli dalam satu transaksi.
+
 
