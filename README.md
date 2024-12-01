@@ -3,12 +3,13 @@
 Proyek ini adalah **website e-commerce katalog** yang dibangun dengan menggunakan **PHP Native**, **AJAX**, **jQuery**, **JavaScript**, dan **MySQL**. Dengan pendekatan **fullstack**, saya mengintegrasikan **front-end** dan **back-end** untuk menciptakan pengalaman belanja online yang cepat, efisien, dan mudah digunakan.
 
 ## Fitur Utama
+-## Untuk Pembeli:
 - **Filter Produk**: Menampilkan filter canggih untuk menyaring produk berdasarkan kategori, harga, dan lainnya. Implementasi filter ini membutuhkan **query SQL yang Kompleks** dengan berbagai relasi antar tabel produk, kategori, dan stok.
 - **Keranjang Belanja (Cart)**: Pengelolaan keranjang belanja yang dinamis, memungkinkan pengguna menambahkan, mengubah jumlah, dan menghapus produk tanpa me-refresh halaman. Dikelola dengan menggunakan **AJAX** untuk pembaruan waktu nyata.
 - **Relasi Database MySQL**: Menggunakan **relasi yang kompleks** antar tabel dalam database MySQL untuk menyimpan data produk, kategori, stok, dan transaksi. Relasi ini diperlukan untuk mengelola data secara efisien dan menampilkan produk sesuai filter yang dipilih oleh pengguna.
 - **Pengelolaan Produk dan Stok**: Admin dapat mengelola produk secara langsung melalui antarmuka sederhana, dengan pembaruan stok yang dinamis.
 
-- ### Untuk Admin:
+ -## Untuk Admin:
 - **CRUD Produk**: Admin memiliki kemampuan untuk **menambah**, **mengedit**, dan **menghapus** produk melalui antarmuka yang mudah digunakan. Proses ini juga memperbarui stok produk secara otomatis.
 - **Pengelolaan Kategori dan Stok**: Admin dapat mengelola kategori produk dan memantau tingkat stok produk, memastikan bahwa informasi yang ditampilkan kepada pembeli selalu up-to-date.
 - **Manajemen Transaksi**: Admin dapat melihat dan mengelola daftar transaksi yang telah dilakukan oleh pembeli. Ini termasuk informasi tentang produk yang dibeli, jumlah, serta total transaksi.
