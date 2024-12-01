@@ -8,6 +8,11 @@ Proyek ini adalah **website e-commerce katalog** yang dibangun dengan menggunaka
 - **Relasi Database MySQL**: Menggunakan **relasi yang kompleks** antar tabel dalam database MySQL untuk menyimpan data produk, kategori, stok, dan transaksi. Relasi ini diperlukan untuk mengelola data secara efisien dan menampilkan produk sesuai filter yang dipilih oleh pengguna.
 - **Pengelolaan Produk dan Stok**: Admin dapat mengelola produk secara langsung melalui antarmuka sederhana, dengan pembaruan stok yang dinamis.
 
+- ### Untuk Admin:
+- **CRUD Produk**: Admin memiliki kemampuan untuk **menambah**, **mengedit**, dan **menghapus** produk melalui antarmuka yang mudah digunakan. Proses ini juga memperbarui stok produk secara otomatis.
+- **Pengelolaan Kategori dan Stok**: Admin dapat mengelola kategori produk dan memantau tingkat stok produk, memastikan bahwa informasi yang ditampilkan kepada pembeli selalu up-to-date.
+- **Manajemen Transaksi**: Admin dapat melihat dan mengelola daftar transaksi yang telah dilakukan oleh pembeli. Ini termasuk informasi tentang produk yang dibeli, jumlah, serta total transaksi.
+
 ## Teknologi yang Digunakan
 - **HTML5 & CSS3**: Untuk struktur dan desain halaman yang responsif dan user-friendly.
 - **PHP Native**: Menangani logika **back-end** untuk mengelola data produk, transaksi, dan pengelolaan keranjang belanja secara langsung di server.
